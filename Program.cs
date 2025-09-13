@@ -49,7 +49,7 @@
             myCow.Name = "Bambi";
             myCow.Weight = 500;
 
-            myCow.WeightInfo();
+            myCow.WeightInfo(); 
         }
     }
 }
