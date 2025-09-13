@@ -1,4 +1,6 @@
-﻿namespace OOPGithub
+﻿using OOPGithub.Classes;
+
+namespace OOPGithub
 {
     internal class Program
     {

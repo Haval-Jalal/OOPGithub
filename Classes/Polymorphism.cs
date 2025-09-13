@@ -1,4 +1,4 @@
-﻿namespace OOPGithub
+﻿namespace OOPGithub.Classes
 {
 
         // Här skapar jag en klass som heter User, som också ärver från klassen Person.

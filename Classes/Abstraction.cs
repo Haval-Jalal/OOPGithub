@@ -1,4 +1,4 @@
-﻿namespace OOPGithub
+﻿namespace OOPGithub.Classes
 {
 
     // Här skapar jag en abstrakt klasss som heter Animal. Den ska inne hålla viss info med 2 attributer och en metod som jag vill ska finnas på alla andra subklasser.
