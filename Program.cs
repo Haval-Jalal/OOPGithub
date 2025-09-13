@@ -36,7 +36,20 @@
             user1.Introduce();
 
 
+            // Jag ska skapa ett objekt var från klsserna Horse och Cow som ärver från Animal.
+            // Sedan ska jag anropa metoden i båda klasserna som också ärvs från huvudclassen Animal.
 
+            Horse myHorse = new Horse();
+
+            myHorse.Name = "Mustang";
+            myHorse.Weight = 1000;
+            myHorse.WeightInfo();
+
+            Cow myCow = new Cow();
+            myCow.Name = "Bambi";
+            myCow.Weight = 500;
+
+            myCow.WeightInfo(); 
         }
     }
 }
