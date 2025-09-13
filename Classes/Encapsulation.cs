@@ -1,4 +1,4 @@
-﻿namespace OOPGithub
+﻿namespace OOPGithub.Classes
 {   // 1. Jag skapar en klass som heter Encapsulation, och där ska jag ha ett privat attribut som heter code.
     public class Encapsulation
     {
