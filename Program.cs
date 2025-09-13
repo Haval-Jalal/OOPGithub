@@ -26,6 +26,17 @@
 
             myEncapsulation.DisplayCode();
 
+
+            // Jag har skapat ett objket av klassen User (Polymorphism) som heter user1 som har 2 attributer och en metod.
+            // På meton har jag overrideat och skrivit om texten med andra ord.
+
+            User user1 = new User();
+            user1.Name = "Lawan";
+            user1.Age = 11;
+            user1.Introduce();
+
+
+
         }
     }
 }
