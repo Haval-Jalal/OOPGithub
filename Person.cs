@@ -9,7 +9,7 @@ namespace OOPGithub
         public string Name;
         public int Age;
 
-        public void Introduce()
+        public virtual void Introduce()
         {
             Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");
         }
