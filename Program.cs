@@ -11,6 +11,14 @@
             person.Age = 34;
             person.Introduce();
 
+
+            //Jag ska skapa en instans av klassen Inheritance, och satt värdena för JobTitle, och sedan anropar jag metoden Introduce och Work för att skriva ut informationen.
+
+            Inheritance myWork = new Inheritance();
+            myWork.JobTitle = "Teamleader";
+            person.Introduce();
+            myWork.Work();
+
         }
     }
 }
