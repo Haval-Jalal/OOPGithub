@@ -19,6 +19,13 @@
             person.Introduce();
             myWork.Work();
 
+
+
+            //Jag ska skapa en instans av klassen Encapsulation, och satt värdet för code via konstruktorn, och sedan anropar jag metoden DisplayCode för att skriva ut värdet på code.
+            Encapsulation myEncapsulation = new Encapsulation(5136);
+
+            myEncapsulation.DisplayCode();
+
         }
     }
 }
